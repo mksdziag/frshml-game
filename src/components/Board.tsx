@@ -7,7 +7,7 @@ import Deck from "./Deck";
 import PreviewDeck from "./PreviewDeck";
 import StatusBar from "./StatusBar";
 import AppModal from "./shared/Modal";
-import useGame from "../hooks/geme";
+import useGame from "../hooks/game";
 
 import styles from "../styles/Board.module.scss";
 

@@ -4,7 +4,7 @@ import {
   isWinned,
   makeRandomCell,
   validateUserSequence,
-} from "../../../hooks/geme/helpers";
+} from "../../../hooks/game/helpers";
 
 describe("Game Helpers", () => {
   it("Validates empty sequence with false result", () => {

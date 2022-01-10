@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback, useEffect, useState } from "react";
+import { FunctionComponent, useEffect, useState } from "react";
 import { Cell } from "../entities/Cell";
 import { DeckDimensions } from "../entities/Deck";
 import { sleep } from "../helpers/sleep";
