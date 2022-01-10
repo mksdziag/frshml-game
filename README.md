@@ -1,6 +1,6 @@
-# Freshmail Task Game
+# Frexxmail Task Game
 
-Basic implementation of memory game from Freshamil's reqruitment process.
+Basic implementation of memory game from Frexxmail's reqruitment process.
 
 ## Available Scripts
 
