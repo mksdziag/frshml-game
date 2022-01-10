@@ -24,8 +24,8 @@ export function isWinned(
 }
 
 export function makeRandomCell(dimensions: DeckDimensions): Cell {
-  const x = randomInt(0, dimensions.cols - 1);
-  const y = randomInt(0, dimensions.rows - 1);
+  const x = randomInt(0, dimensions.cols);
+  const y = randomInt(0, dimensions.rows);
 
   return new Cell(x, y);
 }
