@@ -26,7 +26,7 @@ const AppModal: FunctionComponent<AppModalProps> = ({
         <div className={styles.ModalBody}>{children}</div>
 
         <footer>
-          <AppButton onClick={() => onClose}>Close</AppButton>
+          <AppButton onClick={onClose}>Close</AppButton>
           <AppButton onClick={onConfirm}>Start new game</AppButton>
         </footer>
       </div>
