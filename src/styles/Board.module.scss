@@ -1,0 +1,26 @@
+.DecksWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 20px auto 0;
+  flex-wrap: wrap;
+  &Item {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+
+    @media screen and (min-width: 768px) {
+      width: auto;
+      max-width: 50%;
+      &:first-child {
+        margin-right: 10px;
+      }
+
+      &:nth-child(2) {
+        margin-left: 10px;
+      }
+    }
+  }
+}

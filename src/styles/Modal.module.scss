@@ -1,0 +1,41 @@
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  max-width: 65%;
+
+  header {
+    padding: 0;
+    h3 {
+      font-size: 30px;
+      font-weight: 700;
+      color: black;
+    }
+  }
+
+  &Body {
+    padding: 20px 0;
+    color: black;
+  }
+
+  footer {
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &Overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.33);
+  }
+}

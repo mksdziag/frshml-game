@@ -1,0 +1,24 @@
+.StatusBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin: 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: wheat;
+      border: rgb(202, 202, 202);
+      display: block;
+
+      &.success {
+        background-color: palegreen;
+      }
+    }
+  }
+}

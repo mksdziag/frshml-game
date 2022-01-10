@@ -1,0 +1,35 @@
+.PreviewDeck {
+  margin-top: 15px;
+
+  table {
+    td {
+      padding: 5px;
+      border: 0 none;
+    }
+  }
+
+  .Cell {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(207, 207, 207);
+    background-color: white;
+    &.Fill {
+      animation: glowCell 500ms;
+    }
+  }
+}
+
+@keyframes glowCell {
+  0% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: rebeccapurple;
+  }
+
+  100% {
+    background-color: white;
+  }
+}

@@ -1,0 +1,18 @@
+.AppButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1;
+  padding: 10px 20px;
+  border: 1px solid rgb(29, 130, 212);
+  background-color: rgb(29, 130, 212);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+
+  &:disabled {
+    background-color: rgb(140, 175, 204);
+  }
+}

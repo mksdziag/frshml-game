@@ -1,0 +1,12 @@
+.ControlPanel {
+  margin-top: 20px;
+  &Actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > * {
+      margin: 5px;
+    }
+  }
+}

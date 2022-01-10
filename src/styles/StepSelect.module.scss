@@ -1,0 +1,14 @@
+.StepSelect {
+  &Wrapper {
+    margin-top: 20px;
+    label {
+      display: inline-block;
+    }
+
+    select {
+      display: inline-block;
+      margin-left: 20px;
+      width: 85px;
+    }
+  }
+}
